@@ -1,0 +1,204 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1.2rem !important;
+}
+
+svg {
+  width: 100%;
+}
+
+input {
+  cursor: pointer;
+  width: 60%;
+}
+
+@media screen and (max-width: 699px) {
+  input {
+    cursor: pointer;
+    width: 100%;
+  }
+}
+
+/* navbar */
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 699px) {
+  .navbar-brand {
+    width: 40%;
+  }
+
+  .navbar img {
+    width: 100%;
+  }
+}
+
+/* hero */
+.hero {
+  margin: auto;
+  width: 85%;
+}
+
+.mockup {
+  margin: auto;
+  width: 85%;
+}
+
+@media screen and (min-width: 700px) {
+  .hero p {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+.stat p {
+  margin-bottom: 2.5rem;
+  opacity: 60%;
+}
+
+.stat-icon {
+  margin-right: 140px;
+  width: 7%;
+}
+/* engagement */
+.engagement img {
+  width: 80%;
+}
+
+.pale-blue {
+  background-color: hsl(207, 100%, 98%);
+}
+
+/* curves */
+@media screen and (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+
+  p {
+    line-height: 1.5rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .desktop {
+    display: none;
+  }
+
+  .mt3 {
+    margin-top: 3rem;
+  }
+}
+
+/* button */
+.outline-pink {
+  font-size: 0.7rem !important;
+  border: 2px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+}
+
+.outline-pink:hover {
+  border: 2px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+}
+
+.btn-pink {
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn-pink:hover {
+  color: white;
+  background-color: hsl(321, 100%, 78%);
+}
+
+/* footer */
+footer {
+  color: white;
+  background-color: hsl(192, 100%, 9%);
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 700px) {
+  footer p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .contact {
+    margin-top: 6rem;
+  }
+}
+
+.contact img {
+  margin-right: 15px;
+}
+
+.social {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.social:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* atttribution */
+.attribution {
+  font-size: 11px;
+  margin: auto;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* others */
+.mt-10 {
+  margin-top: 6rem !important;
+}
+
+.ml-45 {
+  margin-left: 43%;
+}
+
+.social .instagram:hover {
+  fill: #ff0000;
+}
